@@ -1,8 +1,6 @@
 Spotify-clone built using ReactJs for frontend & spotify API for authentication🚀
 The main focus was on User-interface and fetching user's data and playlists with the help of spotify API.
 
-[Live Demo](Go Ahead and give it a try!)
-
 ### Available Script
 
 In this project directory , you can run :
