@@ -1,0 +1,22 @@
+:root {
+  --mainGreenColor: #1db954;
+}
+
+.login {
+  background-color: black;
+  display: grid;
+  place-items: center;
+  height: 100vh;
+}
+.login > img {
+  width: 20%;
+}
+
+.login > a {
+  background: var(--mainGreenColor);
+  color: white;
+  font-weight: bold;
+  padding: 0.9em;
+  border-radius: 60px;
+  text-decoration: none;
+}

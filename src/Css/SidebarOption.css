@@ -1,0 +1,24 @@
+:root {
+  --grey: grey;
+  --white: white;
+}
+
+.sidebarOption > p {
+  margin-left: 10px;
+  font-size: 14px;
+}
+.sidebarWraper {
+  color: var(--grey);
+  height: 40px;
+  cursor: pointer;
+  transition: 200ms color ease-in;
+  display: flex;
+  align-items: center;
+}
+
+.sidebarOption_icon {
+  margin: 0 10px;
+}
+.sidebarOption:hover {
+  color: var(--white);
+}

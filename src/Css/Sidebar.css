@@ -1,0 +1,30 @@
+:root {
+  --offBlack: #040404;
+  --white: white;
+  --greyish: #282828;
+}
+
+.sidebar {
+  height: 100vh;
+  flex: 0.2;
+  background: var(--offBlack);
+  color: var(--white);
+  min-width: 230px;
+  padding: 0 10px;
+}
+
+.sidebar_logo {
+  height: 70px;
+  padding: 10px;
+  margin-right: auto;
+}
+.sidebar > hr {
+  border: solid 1px var(--greyish);
+  width: 90%;
+  margin: 10px auto;
+}
+
+.sidebar_playlist {
+  margin-left: 10px;
+  padding: 5px;
+}
